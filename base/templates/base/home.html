@@ -1,0 +1,11 @@
+{% extends 'base/base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block content %}
+<div class="text-center">
+    <img class="img-fluid p-2" src="{% static 'images/goal.svg' %}" style="max-width: 20rem;" alt="Goal">
+    <!-- <h2 class="p-1">{% translate "It's working." %}</h2> -->
+    <h2 class="p-1">{% translate "It's going to work." %}</h2>
+</div>
+{% endblock content %}
